@@ -1,15 +1,16 @@
 Notes
 
-Change command name:
+Change command name:<br>
 `#PS1='client@\W>'`
 
 -ELK Stack
 
-Install screen and vim: # sudo yum install screen vim -y
+Install screen and vim: <br>
+`# sudo yum install screen vim -y`
 
-Script to execute:
+Script to execute:<br>
 
-# sudo yum install screen vim -y
+`# sudo yum install screen vim -y
 #      echo '[sensu]
 name=sensu
 baseurl=https://sensu.global.ssl.fastly.net/yum/$releasever/$basearch/
@@ -17,4 +18,4 @@ gpgcheck=0
 enabled=1' | sudo tee /etc/yum.repos.d/sensu.repo
 #     yum install sensu -y
 #      sensu-install -p sensu-plugin
-#      yum install httpd -y
+#      yum install httpd -y`
