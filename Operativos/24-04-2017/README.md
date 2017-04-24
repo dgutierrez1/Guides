@@ -1,7 +1,7 @@
 Notes
 
 Change command name:
-#PS1='client@\W>'
+`#PS1='client@\W>'`
 
 -ELK Stack
 
