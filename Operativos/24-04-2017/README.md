@@ -10,7 +10,7 @@ Install screen and vim: <br>
 
 Script to execute:<br>
 
-##CLIENT
+##CLIENT<br>
 `# sudo yum install screen vim -y`<br>
 `#      echo '[sensu]`<br>
 `name=sensu
@@ -22,7 +22,7 @@ enabled=1' | sudo tee /etc/yum.repos.d/sensu.repo`<br>
 `#      yum install httpd -y`<br>
 
 
-##SERVER
+##SERVER<br>
    `yum install screen vim -y`<br>
       `echo '[sensu]
 name=sensu
